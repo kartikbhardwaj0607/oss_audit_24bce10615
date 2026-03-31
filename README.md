@@ -11,7 +11,7 @@ I chose VLC Media Player for this audit because of its awesome history starting 
 
 ## What's in this repo?
 ```text
-oss-audit-24BSA10166/
+oss-audit-24BCE10615/
 │
 ├── README.md                          <-- You're reading this
 │
@@ -23,7 +23,7 @@ oss-audit-24BSA10166/
 │   └── script5_manifesto_generator.sh <-- Generates an open-source manifesto
 │
 └── report/
-    └── OSS_Audit_24BSA10166.pdf       <-- Final project report 
+    └── OSS_Audit_24BCE10615.pdf       <-- Final project report 
 ```
 
 ---
@@ -43,7 +43,7 @@ This one loops through important directories (like `/etc`, `/var/log`, `/home`) 
 A handy script to scan through a log file and count how many times a word (like `error`) shows up. If it finds matches, it prints the last 5 of them. I also added a retry loop so if the file is empty when you run it, it waits a bit and tries again before giving up. Takes command-line arguments (e.g., `$1` and `$2`).
 
 ### 5. Manifesto Generator (`script5_manifesto_generator.sh`)
-An interactive script! It asks you 3 quick questions using `read -p`. Based on what you type, it generates a personalized text file (`manifesto_[your_username].txt`) with a short open-source philosophy statement. Shows off string appending and writing output to files.
+An interactive script! It asks you 3 quick questions using `read -p`. Based on what you type, it generates a personalized text file (`manifesto_oss.txt`) with a short open-source philosophy statement. Shows off string appending and writing output to files.
 
 ---
 
